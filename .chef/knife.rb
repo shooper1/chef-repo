@@ -6,7 +6,7 @@ knife[:aws_credential_file] = "/home/centos/aws.txt"
 current_dir = File.dirname(__FILE__)
 log_level                :info
 log_location             STDOUT
-#node_name                "admin"
-#client_key               "#{current_dir}/admin.pem"
+node_name                "admin"
+client_key               "#{current_dir}/admin.pem"
 chef_server_url          "https://ip-172-31-47-233.ec2.internal/organizations/coveros"
 cookbook_path            ["#{current_dir}/../cookbooks"]
